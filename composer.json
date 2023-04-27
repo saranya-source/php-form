@@ -1,0 +1,15 @@
+{
+	"name": "gnat/simple-php-form",
+	"type": "library",
+	"description": "Automatically generate and handle input forms in PHP.",
+	"keywords": ["form", "forms", "input", "email", "feedback", "response", "validation", "helpers", "warnings"],
+	"homepage": "https://github.com/gnat/simple-php-form",
+	"license": "Zlib",
+	"authors": [{ "name": "Nathaniel Sabanski", "homepage": "http://nconsulting.ca", "role": "Developer" }],
+	"require": {
+		"php": "^8.0"
+	},
+	"autoload": {
+		"classmap": ["SimplePHPForm.php"]
+	}
+}
